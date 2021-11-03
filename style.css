@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*
+* Menu
+ */
+
+.menu {
+    background-color: lightgray;
+    color: #595656;
+    box-shadow: 0 2px 8px lightgray;
+}
+
+.menu > ul {
+    list-style-type: none;
+    text-align: right;
+    margin: 0 3rem;
+    padding: 0;
+}
+
+.menu > ul li {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+}
+
+#logo_menu {
+    display: none;
+}
+
+@media screen and (max-width: 515px) {
+
+    .menu {
+        margin: 0;
+    }
+
+    .menu > ul {
+        text-align: left;
+    }
+
+    .menu > ul li {
+        display: block;
+    }
+
+    #logo_menu {
+        display: block;
+        padding: 1rem;
+        margin: 0;
+    }
+
+}
